@@ -1,0 +1,251 @@
+body{
+    margin: 0;
+    color: #ababab;
+}
+
+/* For Nav */
+
+.navBar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 0 ;
+    width: 100%;
+}
+.navBar img{
+    width: 268px;
+}
+.navItems{
+    list-style: none;
+    display: flex;
+    justify-content:center;
+    gap:15px;
+}
+.active{
+    color: #00b39b;
+    cursor: pointer;
+}
+.navItems li:hover {
+    color: #00b39b;
+    cursor: pointer;
+}
+
+/* All Containers */
+
+.container{
+    padding: 0 250px;
+    color: #747474;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+/* Hero Section */
+
+.hero{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin:50px 0;
+}
+.heroLogo img{
+    height: 40px;
+    width: 40px;
+}
+.heroHeader h1{
+    font-weight: 100;
+    color: #00b39b;
+    font-family: 'Work Sans', Arial, sans-serif;
+}
+.heroParag{
+    display: flex;
+    gap: 15px;
+    font-size: 16px;
+}
+
+/* Cards Section */
+
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: white;
+}
+.card1{
+    background-color: #00ccb1;
+}
+.card2{
+    background-color: #3d83df;
+}
+.card3{
+    background-color: #1b2734;
+}
+.card1 , .card2 , .card3 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 2rem 2rem 0 ;
+    border-radius:10px ;
+    height: 280px;
+    font-size: 1em;
+    font-weight: 100;
+    line-height: 1.5;
+    width:200px;
+}
+select{
+    margin-bottom: 20px;
+    border: none;
+    background:none;
+    font-size: large;
+    color: white;
+    font-weight: 100;
+    text-decoration: underline;
+}
+
+/* Partners Section */
+
+.partners{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+}
+.partners p{
+
+    color: #00ccb1;
+    font-size: x-large;
+    font-weight:500 ;
+}
+.partnersLogo{
+    display: grid;
+    grid-template-columns: repeat(4,80px);
+    grid-template-rows: repeat(3,70px);
+}
+.partnersLogo img{
+    width: 50px;
+}
+
+/* Platform Description */
+
+.pltftmDscrp{
+    display: flex;
+    padding-top: 40px ;
+    background-color: #d0faf4;
+    gap: 40px;
+    justify-content: center;
+}
+.leftSide{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-between;
+}
+.leftSide h4{
+    color: #00ccb1;
+    font-size: x-large;
+    font-weight: 100;
+    justify-content: space-between;
+}
+.rightSide{
+    display: grid;
+    grid-template-columns: repeat(2,300px);
+    grid-template-rows: repeat(2,300px);
+    gap:20px;
+    padding: 40px 0;
+}
+.miniEdits img{
+    height: 25px;
+    width: 25px;
+}
+.miniEdits h3{
+    font-size: x-large;
+    font-weight: 100;
+    color: #00b39b;
+}
+.miniEdits{
+    display: flex;
+    background-color: white;
+    padding: 40px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Improve Section */
+
+.improve{
+    text-align: center;
+    margin: 50px;
+}
+.improve h3{
+    color: #00b39b;
+    font-size: larger;
+    font-weight: 100;
+}
+.improve p{
+    font-weight:100 ;
+}
+
+/* Countries Section */
+
+.countries{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 50px 0;
+}
+.hvr{
+    border-radius: 10px;
+}
+.cImg{
+    max-width: 250px;
+    max-height: 250px;
+    border-radius: 10px;
+}
+.countryFlex{
+    display: flex;
+    padding:10px;
+    justify-content: space-between;
+    align-items: center;
+}
+.countries button{
+    border: none;
+    background-color: #3d83df;
+    color: white;
+    padding: 7px;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.hvr:hover{
+    box-shadow: 5px 5px 20px 0.1px;
+}
+
+/* Final Section */
+
+.final{
+    text-align: center;
+    margin: 100px 0;
+}
+.final h4{
+    color: black;
+    font-weight: 300;
+    font-size: xx-large;
+}
+.finalbtn{
+    border: none;
+    background-color: #3d83df;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* Footer */
+
+footer{
+    text-align: center;
+}
